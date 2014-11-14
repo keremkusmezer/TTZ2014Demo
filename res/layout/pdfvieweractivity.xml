@@ -1,0 +1,46 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin">
+
+    
+    
+    <ImageView
+        android:id="@+id/pdfimageview"
+        android:scaleType="fitXY" 
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" /> 
+
+    <ImageButton
+        android:id="@+id/fab_add"
+        android:layout_width="@dimen/fab_size"
+        android:layout_height="@dimen/fab_size"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_gravity="bottom|right"
+        android:layout_marginBottom="16dp"
+        android:layout_marginRight="16dp"
+        android:background="@drawable/ripple"
+        android:elevation="1dp"
+        android:src="@drawable/ic_action_add"
+        android:stateListAnimator="@anim/anim" />
+
+    <ImageButton
+        android:id="@+id/fab_remove"
+        android:layout_width="@dimen/fab_size"
+        android:layout_height="@dimen/fab_size"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_gravity="bottom|left"
+        android:layout_marginBottom="16dp"
+        android:layout_marginRight="16dp"
+        android:background="@drawable/ripple"
+        android:elevation="1dp"
+        android:src="@drawable/ic_action_remove"
+        android:stateListAnimator="@anim/anim" />
+
+</RelativeLayout>
